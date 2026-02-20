@@ -155,17 +155,29 @@ One‑time customers have a higher average review score than repeat customers, s
 
 VIP customers show slightly more negative sentiment than Low‑Value customers, mainly around delivery expectations for high‑ticket orders.
 
-# Key Business Insights
-Olist operates as a high‑acquisition, transactional marketplace: AOV around R$160 and repeat rate below 1% indicate limited habitual use.
-​
+# Business Insights
 
-A strong Pareto effect: a small VIP and High‑Value segment generates a large share of revenue; Low‑Value customers dominate volume but not value.
-​
+### 1. The Satisfaction vs. Habit Paradox
+**The Finding:** ~79% of reviews are positive, yet the repeat purchase rate is below 1%.  
+**The Insight:** One-time customers actually report higher satisfaction than repeat buyers. This proves the "retention problem" isn't a failure of service quality, but a **category-habit mismatch**. The marketplace is currently optimized for "one-off" needs (furniture, large electronics) rather than habitual daily or weekly shopping.
 
-Freight Tax limits regional growth: remote states face high freight‑to‑price ratios, hurting margins and customer value.
-​
+### 2. The Geographic "Freight Tax"
+**The Finding:** Logistics costs in remote regions often exceed 20% of the total order value.  
+**The Insight:** High shipping costs act as a natural ceiling for **Customer Lifetime Value (CLV)**. In distance-penalized states, Olist is essentially a "utility of last resort" rather than a competitive shopping destination, making it difficult to scale high-value customer tiers outside the South/Southeast.
 
-Retention paradox: sentiment is strongly positive, especially among one‑time customers, so low repeat is tied to category mix (one‑off purchases) and logistics rather than basic experience.
+### 3. VIP Fragility & Expectations
+**The Finding:** VIP customers show a **15.8% negative sentiment rate**—nearly double that of lower tiers.  
+**The Insight:** High-ticket shoppers have a much lower tolerance for logistics friction. A two-day delay might be acceptable for a low-cost item, but it triggers significant brand damage for "VIP" purchases. Protecting the top 10% of revenue requires **logistics precision**, not just product quality.
+### 📊 Pareto Analysis (80/20 Rule)
+
+| Customer Segment | Customer Count | Segment Revenue (R$) | Avg. Customer Value (R$) | Cumulative Revenue % |
+| :--- | :--- | :--- | :--- | :--- |
+| **Top 10%** | 9,652 | 5,869,246.53 | 608.09 | 38.06% |
+| **Top 20%** | 9,648 | 2,335,069.97 | 242.03 | 53.20% |
+| **Top 50%** | 28,943 | 4,214,495.07 | 145.61 | 80.52% |
+| **Top 80%** | 28,943 | 2,248,580.86 | 77.69 | 95.10% |
+| **Bottom 20%** | 19,291 | 755,069.34 | 39.14 | 100.00% |
+
 
 # Strategic Recommendations
 Protect the VIP core
