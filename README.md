@@ -154,18 +154,45 @@ Around 77–79% of reviews are positive (4–5 stars).
 One‑time customers have a higher average review score than repeat customers, so low repeat rate is not explained by bad experience.
 
 VIP customers show slightly more negative sentiment than Low‑Value customers, mainly around delivery expectations for high‑ticket orders.
+
+# Key Business Insights
+Olist operates as a high‑acquisition, transactional marketplace: AOV around R$160 and repeat rate below 1% indicate limited habitual use.
+​
+
+A strong Pareto effect: a small VIP and High‑Value segment generates a large share of revenue; Low‑Value customers dominate volume but not value.
+​
+
+Freight Tax limits regional growth: remote states face high freight‑to‑price ratios, hurting margins and customer value.
+​
+
+Retention paradox: sentiment is strongly positive, especially among one‑time customers, so low repeat is tied to category mix (one‑off purchases) and logistics rather than basic experience.
+
+# Strategic Recommendations
+Protect the VIP core
+
+Pilot “priority logistics” or SLA guarantees for VIP/high‑ticket orders to reduce delay‑driven dissatisfaction.
+
+Shift the product mix
+
+Increase exposure to high‑frequency categories (consumables, beauty, health) to create reasons to return.
+
+Regional logistics strategy
+
+Explore additional fulfillment centers beyond São Paulo to reduce freight share in high‑potential but remote states.
+
+
+# Repository Structure
 .
 ├── sql/
 │   └── customer_economics.sql
 ├── python/
-│   └── sentiment_analysis.ipynb
-│       # uses:
-│       # - olist_order_reviews_dataset.csv
-│       # - order_customer_mapping.csv (order → customer_id + tier info)
+│   ├── 01_customer_master_exploration.ipynb
+│   ├── 02_sentiment_analysis.ipynb
+│   └── data/
+│       ├── customer_master.csv
+│       ├── order_customer_mapping.csv
+│       └── olist_order_reviews_dataset.csv
 ├── tableau/
 │   └── Olist_Customer_Economics.twb(x)
-├── data/
-│   ├── olist_order_reviews_dataset.csv
-│   └── order_customer_mapping.csv
-└── README.md
+├── README.md
 
